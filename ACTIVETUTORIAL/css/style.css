@@ -1,0 +1,185 @@
+html{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 100vh; 
+}
+
+.container-geral{
+  
+    text-align: center;
+    
+}
+
+.navegacao-menu{
+    height: 100px;  
+ 
+}
+
+#logo{
+    float: left;
+    width: 120px;
+    height: 100px;
+}
+.navegacao-menu ul{
+    list-style: none;/*retira os pontinhos*/
+   background-color:rgb(114, 153, 204);
+   height: 100px;
+}
+.navegacao-menu li{
+    display: inline-block;
+    margin-top: 20px;
+}
+.navegacao-menu li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform:uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    transition: 1s;
+    padding: 25px 30px;/*distancia interna dos elements*/  
+}
+.navegacao-menu li a:hover{
+    transition: 1s;
+    color: rgb(139, 121, 62);
+    
+}
+
+
+h1 {
+    font-size: 20px;
+   font-weight:normal;
+   color:rgb(3, 28, 250);
+   text-align:center;
+   
+     }
+ 
+     
+.container{
+    text-align: center;  
+    width: 100%;
+    height: 100%;
+}
+.container a{
+    text-decoration: none;
+}
+.container a:hover{
+    transition: 1s;
+    color: rgb(255, 255, 255);
+    border-radius: 1px solid rgb(114, 153, 204);
+    transition: 1s;
+    
+}
+   .principal {
+    border:2px solid rgb(255, 255, 255);
+       border-radius: 30px;
+       width:100px;
+       height: 80px;
+       display: inline-block;
+       background: rgb(201, 207, 214);
+       transition: 1s;
+       margin:10px;
+       padding: 30px;
+      
+       
+   }
+   .principal  h1 a {
+    display: flex;
+    text-align: center;
+
+   }
+
+ 
+ 
+
+
+#rodape{
+    list-style: none;/*retira os pontinhos*/
+    background-color:rgb(114, 153, 204);
+    height: 120px;
+    padding:30px;
+    text-align:center;
+    
+}
+
+
+
+/*=========================================================================================================*/
+
+
+.container2 {
+    text-align: center;
+    margin: 30px
+
+    }
+    .container2  h1{
+        color: cornflowerblue;
+    }
+
+    .titulo h1{
+        color:blue;
+        font-size: 28px;
+    }
+    
+
+    .imagem img {
+        width: 100%;
+    }
+    .texto{
+        text-align: center;
+        padding: 0px;
+        margin: 30px;
+        
+        width: 100%;
+        height: 100%;
+
+    }
+    .texto p{
+        text-align: justify;
+        margin: 50px;
+        border-bottom: 2px solid cornflowerblue;
+        font-size: 28px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .nota{
+        border: 10px solid rgb(255, 255, 255);
+        margin: 50px;
+      
+        }
+        textarea{
+            width: 100%;
+            height: 250px;
+            background:rgb(255, 255, 255);
+            color: rgb(0, 119, 255);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
